@@ -1,0 +1,70 @@
+body {
+  background-color: lightgrey;
+  cursor: URL(images/paint-brush.png);
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.square {
+  width: 30px;
+  float: left;
+  height: 30px;
+  background: white;
+  border: solid grey 0.1px;
+}
+
+.row {
+  clear: both;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* W/O DOM creating every color on CSS (uncomment html colors to work): */
+/* .red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+} */
+
+/* .orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+} */
